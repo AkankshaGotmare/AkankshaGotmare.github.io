@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+		<title>Student Details</title>
+
+		<style type="text/css">
+			body {
+            background-color: lightpink;
+            font-family: Verdana;
+            text-align: center;
+            padding: 10px;
+        }
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+        button {
+            background-color: lightpink;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 50%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+ 
+ 
+		</style> 
+</head>
+<body>
+	<h1> Student Details Form </h1>
+<form id="form" method="post">
+		<form id="form">
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+            <input type="text" 
+            		name="UserName" 
+            		size=35 
+            		maxlength=50 
+            		value="" 
+            		placeholder="Enter Your Name ">
+ 		</div>
+		<div class="form-control">
+            <label for="Roll No" id="label-Roll No">
+                Roll NO
+            </label>
+            <input type="number" 
+            		name="number" 
+            		size=35 
+            		maxlength=50 
+            		value="" 
+            		placeholder="Enter Your Roll No  ">
+        </div>
+        <div class="form-control">
+            <label for="Email" id="label-Email">
+                Email Id
+            </label>
+            <input  type="email" 
+            		name="eid" 
+            		size=35 
+            		maxlength=50 
+            		value="" 
+            		placeholder="Enter Your email id  ">
+        </div>
+        <div class="form-control">
+            <label for="Section" id="label-Section">
+                Section
+            </label>
+            		<select name="type" style="width: 470px"  placeholder="Section"><option>
+					<option value=1 >A
+					<option value=2 >B
+					</select>
+            
+        </div>
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+            <input type="text"
+                   id="age"
+                   placeholder="Enter your age" />
+        </div>
+        <div class="form-control">
+            <label for="Department" id="label-Department">
+                Department
+            </label>
+	
+		<select name="type" maxlength=20 placeholder="Section"><option>
+		<option value=1 >Computer Science
+		<option value=2 >Information Technology
+		<option value=3 >Electronics Telicommunication
+		<option value=4 >Electrical 
+		<option value=5 >Mechanical
+		</select>	
+       <div class="form-control">
+       		</br>
+            <label>
+            	What are you doing after engineering?
+                
+            </label>
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Job</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Higher Studies</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Startup </input>
+            </label>
+        </div>
+		<div class="form-control">
+            <label>
+            	</br></br>
+            	Languages and Frameworks you known
+                <small>(Check all that apply)</small>
+            </br>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">C</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">C++</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">C#</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Java</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                .
+                       name="inp">Python</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">JavaScript</input></label>
+        </div>
+  
+		</br></br></br></br>
+		<button type="submit" value="submit" >
+            Submit
+        </button>
+		</br></br></br>
+		</div>
+</form>
+<footer align="center">
+	<h3>&copy; Akanksha Gotmare | Department of Electronics Telicommunication | USN: ET20035 | S.B.Jain , Nagpur</h3>
+	
+</footer>
+</body>
+</html>
